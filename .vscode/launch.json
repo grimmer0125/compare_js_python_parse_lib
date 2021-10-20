@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // To debug, make sure a *.spec.ts file is active in the editor, then run a configuration
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ts-node",
+            "runtimeArgs": [
+                "-r",
+                "${workspaceFolder}/node_modules/ts-node/register"
+            ],
+            "args": [
+                "${file}"
+            ]
+        }
+    ]
+}

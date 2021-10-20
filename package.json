@@ -1,0 +1,15 @@
+{
+  "name": "compare_js_python_parse_lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:grimmer0125/compare_js_python_parse_lib.git",
+  "author": "grimmer <grimmer0125@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.7.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}
